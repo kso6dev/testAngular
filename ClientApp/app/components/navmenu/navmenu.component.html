@@ -6,6 +6,11 @@
                 <span class='icon-bar'></span>
                 <span class='icon-bar'></span>
                 <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
             </button>
             <a class='navbar-brand' [routerLink]="['/home']">testAngular</a>
         </div>
@@ -25,6 +30,31 @@
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/fetch-data']">
                         <span class='glyphicon glyphicon-th-list'></span> Fetch data
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/japan']">
+                        <span class='glyphicon glyphicon-plane'></span> Japan Project
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/videogames']">
+                        <span class='glyphicon glyphicon-hdd'></span> Video Games
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/music']">
+                        <span class='glyphicon glyphicon-cd'></span> Music
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/life']">
+                        <span class='glyphicon glyphicon-road'></span> Life
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/stories']">
+                        <span class='glyphicon glyphicon-book'></span> Stories
                     </a>
                 </li>
             </ul>
